@@ -26,7 +26,7 @@ public class Classroom {
         //例如：John 的 BMI = ?? Mary 的 BMI = ??
         System.out.printf("%s 的 BMI = %.2f\n",s1.name,s1.BMI);
         System.out.printf("%s 的 BMI = %.2f\n",s2.name,s2.BMI);
-            
+         //老師的Github Github https://github.com/vincenttuan/Java1103   
     }
         
 }
