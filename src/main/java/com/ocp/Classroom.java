@@ -24,8 +24,8 @@ public class Classroom {
         System.out.printf("姓名：%s 年齡：%d 身高：%.1f 體重：%.1f\n",s2.name,s2.age,s2.height,s2.weight);
         //印出每個學生的 BMI 資料
         //例如：John 的 BMI = ?? Mary 的 BMI = ??
-        System.out.printf("John 的 BMI = %.2f\n",s1.BMI);
-        System.out.printf("Mary 的 BMI = %.2f\n",s2.BMI);
+        System.out.printf("%s 的 BMI = %.2f\n",s1.name,s1.BMI);
+        System.out.printf("%s 的 BMI = %.2f\n",s2.name,s2.BMI);
             
     }
         
