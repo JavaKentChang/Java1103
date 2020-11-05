@@ -29,4 +29,13 @@ public class Accout {
     void printBalance(){
         System.out.printf("name：%s, balance:%,d\n",name,balance);  
     }
+    //轉帳
+    Void transfer(int money, Accout ac){
+     if(money>0 && balance>= money){
+         withdraw(money);//對自己的物件而言，就是提款;
+         ac.setBalance(money);//對方而言，就是存款
+     }
+        return null;
+    }
+    
 }
