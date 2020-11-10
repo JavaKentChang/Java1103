@@ -30,7 +30,7 @@ public class ArrayDemo4 {
         System.out.printf("身高平方差的總和：%.2f\n",h_diff_sum);
         System.out.printf("身高的標準差(SD):%.2f",h_sd);
         double h_cv = h_sd/h_avg;
-        System.out.printf("身高的變異系數(CV):%.2f",h_cv,);
+        System.out.printf("身高的變異系數(CV):%.2f",h_cv);
         
     }
 }
