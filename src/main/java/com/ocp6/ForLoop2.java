@@ -11,8 +11,14 @@ public class ForLoop2 {
                 System.out.println(d);
                 
             }
+        }
+        for (int i = 0; i < rows.length; i++) {
+            for (int j = 0; j < rows[i].length; j++) {
+                System.out.println(rows[i][j]);
             }
-            
+        }
+        
+        
         }
         
     }    
