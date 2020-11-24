@@ -4,6 +4,7 @@ package com.ocp7;
 public class Book { //物件屬性
 private String name;
 private int price;
+public static String publishName = "gotop";//出版社
 
 //預設建構子
 public Book(){
@@ -37,7 +38,9 @@ public Book(String name,int price){
 
     @Override
     public String toString() {
-        return "Book{" + "name=" + name + ", price=" + price + '}';
+        return "Book{" + "name=" + name + ", price=" + price + ", publishName=" + publishName + '}';
     }
+
+   
 
 }
