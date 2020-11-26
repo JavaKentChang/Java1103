@@ -14,10 +14,12 @@ public class Zoo5 {
         System.out.println(animals[2]);
         int sum =0;
         int foot_sum=0;
+        //利用不同for迴圈
         for (Animal animal : animals) {
             System.out.println(animal);
             sum +=animal.getFoot();
         }
+        //利用
         for (int i = 0; i < animals.length; i++) {
             foot_sum +=animals[i].getFoot();   
         }
