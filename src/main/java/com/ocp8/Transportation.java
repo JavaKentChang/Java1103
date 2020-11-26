@@ -6,6 +6,7 @@ public class Transportation {
     private int amount;
     private int km;
     private int price;
+    private int rentnum;
 
     public String getName() {
         return name;
@@ -39,10 +40,22 @@ public class Transportation {
         this.price = price;
     }
 
+    public int getRentnum() {
+        return rentnum;
+    }
+
+    public void setRentnum(int rentnum) {
+        this.rentnum = rentnum;
+    }
+
     @Override
     public String toString() {
-        return "Transportation{" + "name=" + name + ", amount=" + amount + ", km=" + km + ", price=" + price + '}';
+        return "Transportation{" + "name=" + name + ", amount=" + amount + ", km=" + km + ", price=" + price + ", rentnum=" + rentnum + '}';
     }
+
+
+
+    
     
     
 }
