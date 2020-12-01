@@ -13,7 +13,7 @@ class Father{
 //class son extends Objects
 class son extends Father{
     public son(){
-        super();
+        super();//一般這個可以不用寫
     }
 
 }
