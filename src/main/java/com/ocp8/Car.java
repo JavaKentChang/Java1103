@@ -6,13 +6,13 @@ public class Car extends Transportation {
 
     }
     
-    public Car(String name, int amount, int km, int price,int rentnum) {
+    public Car(String name, int amount, int km, int price) {
 
         setName(name);
         setAmount(amount);
         setKm(km);
         setPrice(price);
-        setRentnum(rentnum);
+        
         
     }
 

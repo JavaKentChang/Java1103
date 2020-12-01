@@ -14,9 +14,9 @@ public class RentalCompany {
         
         //庫存配置
         transportation = new Transportation[]{
-        new Car("賓利",10,100,2000,1),        //買車
-        new Bicycle("U-Bike",20,10,10,3),    //買腳踏車
-        new Airplane("灣流",5,800,50000,2),  //買飛機
+        new Car("賓利",10,100,2000),        //買車
+        new Bicycle("U-Bike",20,10,10),    //買腳踏車
+        new Airplane("灣流",5,800,50000),  //買飛機
         };
     }
     //取得交通工具庫存
