@@ -2,8 +2,8 @@
 package com.ocp10;
 
 import java.math.BigInteger;
-
-public class Mobile implements Computer{
+//因為半成品抽象類別，所以要加註abstract
+public abstract class Mobile implements Computer{
 
     @Override
     //故意寫成比較複雜的算式
@@ -15,10 +15,12 @@ public class Mobile implements Computer{
         BigInteger sum = b1.add(b2);
             return sum.intValue();
     }
-
-    @Override
+    //以下mobile回傳手機不太對，所以可以全部取消。
+    //因為半成品抽象類別，所以在類別上要加上 abstract
+    /*@Override
     public String getName() {
             return ("手機");
     }
+    */
     
 }
