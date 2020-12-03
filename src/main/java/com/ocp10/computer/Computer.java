@@ -1,5 +1,5 @@
 
-package com.ocp10;
+package com.ocp10.computer;
 //規格是一個方法簽章，我要建立一個電腦規格，110v，別人無法變更
 public interface Computer {
     int volt = 110;         //伏特：Static final, public

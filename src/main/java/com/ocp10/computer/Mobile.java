@@ -1,5 +1,5 @@
 
-package com.ocp10;
+package com.ocp10.computer;
 
 import java.math.BigInteger;
 //因為半成品抽象類別，所以要加註abstract
