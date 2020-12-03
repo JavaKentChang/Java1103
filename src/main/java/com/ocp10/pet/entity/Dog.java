@@ -1,5 +1,5 @@
 
-package com.ocp10.pet;
+package com.ocp10.pet.entity;
 
 public abstract class Dog implements Pet{
 
