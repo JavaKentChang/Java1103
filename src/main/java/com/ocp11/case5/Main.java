@@ -25,6 +25,7 @@ public class Main {
         };
         // java 8 Lambda 語法
         //以下的()，等同於play()，只有在interface 只有一個方法FunctionalInterface，才可以這樣寫
+        //建議要有傳統的經驗才體驗Lambda語法
         Game game3 = () -> System.out.println("玩火車遊戲");
         
     }

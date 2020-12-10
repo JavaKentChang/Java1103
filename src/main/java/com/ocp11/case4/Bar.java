@@ -3,17 +3,16 @@ package com.ocp11.case4;
 
 
 public class Bar {
-    int x = 1000;
+    //int x = 1000;
     public void hello(){
-        final int x = 100;//java 8 以前都需要寫final,java 8 之後就不用寫
+        int x = 100;//java 8 以前都需要寫final,java 8 之後就不用寫
         //x++;
         class Foo{
             void printME(){
                 System.out.println("I am Foo");
                 //若要存取hello() 外部方法的區域變數
                 //則該便是必須是final
-                System.out.println(x);
-                
+                System.out.println(x);   
             }  
         }
         Foo foo = new Foo();
