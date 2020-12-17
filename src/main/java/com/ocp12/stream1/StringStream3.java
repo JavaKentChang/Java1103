@@ -1,6 +1,7 @@
 
 package com.ocp12.stream1;
 
+import java.util.function.IntConsumer;
 import java.util.stream.Stream;
 
 
@@ -17,6 +18,10 @@ public class StringStream3 {
                 .mapToInt(x->x.length())                    //{4,6,1,12}
                 .filter(x-> x<=4)                            //{4,1}
                 .forEach(x->System.out.println(x));         //4,1   
-        
+        //用雙::
+        Stream.of(names)                                    //{"Java","Python","C","Visual Basic"}
+                .mapToInt(String::length)                    //{4,6,1,12}
+                .filter(Util::isLessThan4)                            //{4,1} 
+                .forEach(System.out::println);                   //4,1   
     }
 }
