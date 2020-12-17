@@ -16,7 +16,7 @@ public class StringStream {
         //陣列轉Stream
         //x 表示尋訪每一個元素
         //Stream.of(names).forEach(x -> System.out.println(x));
-        Stream.of(names).forEach(System.out::println);
+        Stream.of(names).forEach(System.out::println);//更精簡
         
     }
 }
