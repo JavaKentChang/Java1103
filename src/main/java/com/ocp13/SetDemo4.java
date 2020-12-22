@@ -26,7 +26,7 @@ public class SetDemo4 {
               
         //印出英文成績
         System.out.println("2.英文平均");
-        exams.stream().mapToInt(e ->e.getEnglish()).forEach(score -> System.out.print(score+", "));
+        exams.stream().mapToInt(e ->e.getEnglish()).forEach(score -> System.out.print(score+", "));//印出所有英文成績
         //印出英文平均
         double avg_english = exams.stream().mapToInt(e ->e.getEnglish()).average().getAsDouble();
         System.out.println("平均:"+avg_english);
