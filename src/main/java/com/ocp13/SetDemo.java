@@ -22,6 +22,7 @@ public class SetDemo {
         //Java 8 foreach
         set.forEach(e -> System.out.println(e));
         set.forEach(System.out::println);
+        System.out.println(set.size());//集合長度
         
     }
 }
