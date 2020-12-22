@@ -23,8 +23,21 @@ public class SetDemo2 {
             System.out.println("加入 ==> "+n);
         }
         System.out.println(set);
+        //彩球號碼總和
+        //Java 7 for-Loop
+        int sum = 0;
+        for (Object obj : set) {
+            if (obj instanceof Integer) {
+                sum+= (Integer)obj;
+            }
+            
+        }
+        System.out.println(sum);
+        //Java 8 
+        int sum2 = set.stream().mapToInt(e->((Integer)e).intValue()).sum();
+        int sum3 = set.stream().mapToInt(e->(Integer)e).sum();//Java 5 以後可省略上述寫法
         
-        
+        System.out.println(sum2);
         
     }
   
