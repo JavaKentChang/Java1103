@@ -6,7 +6,7 @@ import java.util.Vector;
 
 public class VectorDemo {
     public static void main(String[] args) {
-        Vector v  =  new Vector(81,5);//Vector(81)可預設給予初始值，5 為每次新增多少擴增。
+        Vector v  =  new Vector(81,5);//Vector(81)可預設給予初始值，5 為每次新增多少擴增。可按Ctrl+vector
         //超過長度*2
         for (int i = 1; i <=81; i++) {
             v.add(i);
