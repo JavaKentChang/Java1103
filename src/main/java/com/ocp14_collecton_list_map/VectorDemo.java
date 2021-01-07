@@ -1,4 +1,4 @@
-package com.ocp14;
+package com.ocp14_collecton_list_map;
 
 //vector 是執行緒安全(多人存取的安全)的集合，自動增長演算
 

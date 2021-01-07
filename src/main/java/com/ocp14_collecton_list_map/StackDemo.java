@@ -1,5 +1,5 @@
 
-package com.ocp14;
+package com.ocp14_collecton_list_map;
 
 import com.github.javafaker.Faker;
 import java.util.Stack;
