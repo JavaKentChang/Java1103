@@ -7,4 +7,16 @@ public class Power {
         int v= w/a;
         return v;
     }
+   public int getA(int v, int w){
+       int a = w/v;
+       return a;
+   }
+   public int getW(int v, int a){
+       int w= a*v;
+       return w;
+   }
+
+    public int getw(int v, int a) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
