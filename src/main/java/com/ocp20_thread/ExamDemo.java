@@ -17,7 +17,7 @@ class Runner implements Runnable{
 }
 class Caller implements Callable<String>{
     @Override
-    public String caller() throws Exception {
+    public String call() throws Exception {
         System.out.println("Print call in call()");
         return "call";
     }
