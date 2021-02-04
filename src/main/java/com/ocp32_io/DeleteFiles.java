@@ -19,7 +19,7 @@ public class DeleteFiles {
                 }
                 System.out.println(Arrays.toString(files.list()));
             }
-            
+            //
             }else{
                 System.out.printf("%s 刪除失敗\n",files);
             }
