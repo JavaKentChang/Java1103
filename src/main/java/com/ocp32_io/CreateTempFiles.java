@@ -9,10 +9,10 @@ public class CreateTempFiles {
         if(files.exists()){
             for (int i = 0; i < 10; i++) {
                 try {
-                    File tmpFile = File.createTempFile("temp",".txt"+files);
+                    File tmpFile = File.createTempFile("temp",".txt",files);
                     System.out.printf("建立 %s 成功\n",tmpFile);
                 } catch (Exception e) {
-                    e.printStackTrace();//印出詳細錯誤
+                  e.printStackTrace();//印出詳細錯誤
                 }
             }
         }else{
